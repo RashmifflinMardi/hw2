@@ -1,0 +1,155 @@
+/* Global stylesheet for all pages */
+
+/* Style the body: set the font family and font size */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Style the header: change the background color */
+  header {
+    display: grid;
+    padding:1em;
+    background-color: #98c4d4;
+     /* Distributes items evenly */
+  
+  
+  }
+  
+/* The flex container to align nav and header content horizontally on wider screens */
+.header-container {
+  display: flex;
+  flex-direction: column;  /* Stack on mobile for greater readability */
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navigation styling */
+nav ul {
+  list-style-type: style;;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content:space-around;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+/* Header content with image and title */
+.header-content {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.header-content img {
+  margin-right: 20px;
+  width: 200px;
+  height: auto;
+  align-items: center;
+}
+
+
+
+
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* Style the nav: change the background color */
+  nav  {
+    display:inline-block;
+    width: 90%;
+  }
+  
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content:space-evenly; /* Adjust as needed */
+    align-items: center;
+    row-gap: 20px;
+  }
+  .grid img {
+    width: 100%;
+  }
+ 
+  .flex {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly; /* Adjust to control horizontal spacing */
+    /* You can add gap or margin properties if needed */
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .skip-link {
+    top: 10px;
+    left: 8px;
+    background: #000;
+    color: #fff;
+    padding: 6px;
+    text-decoration: none;
+    position:absolute;
+  }
+  .skip-link:focus {
+    position: fixed;
+    top: 0;
+    z-index: 1000;         /* Ensures it appears above other content (like header) */
+  }
+
+  /* Style the main content: set the background color and font size */
+  main {
+    padding: 1em;
+    background-color: #7f89a4;
+    font-size: 18px;
+  }
+  
+  /* Style the footer: change the background color */
+  footer {
+    padding: 1em;
+    background-color: rgb(76, 84, 126);
+  }
+  
+  /* Style the list items: modify the display and width properties */
+  li {
+    display: inline-block;
+    width: 200px;
+  }
+  
+  /* Style the h1 tag: change the text alignment, font family, and color */
+  h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    font-weight: 300;
+    color: #963507;
+  }
+  
+  /* Style the paragraphs: modify the line-height property */
+  a{
+    color: #fbf3f3;
+    font-size: 20px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fbf3f3;
+    font-style: italic;
+  }
+  
+ 
+  
